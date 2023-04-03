@@ -1,0 +1,205 @@
+<!--Table creation
+
+<table> : IT defines table
+<tr>: It defines a row in table
+<th>: It defines a header cell in table
+<td>: cell in a table
+<caption> table caption
+<colgroup> a group of one or morw column in table
+<col> number
+<tbody>
+<thead>
+<tfooter>
+
+HTML list
+1.Ordered List (ol): Numeric Number(1 2 3)
+Capital roman number : (I II III)
+Small Roman Number (i ii iii)
+Capital Alphabet (A B C)
+Small Alphabet (a b c)
+2. Unordered List (ul)= disc 
+circle
+square
+none
+
+3.Description List (dl)
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+table
+</title>
+<style>
+
+table{
+width:80%;
+}
+table,th,td{
+border:1px solid black;
+border-collapse:collapse;
+}
+
+th,td{
+padding:20px;
+}
+table#alter 
+tr:nth-child(even)
+{
+background-color:red;
+}
+table#alter
+tr:nth-child(odd)
+{
+background-color:white;
+}
+table#alter th{
+color:white;
+background-color:gray;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<table id="alter">
+<caption>Student Record</caption>
+<tr>
+<th>First name</th>
+<th> Last name </th>
+<th> Marks Obtained </th>
+<th>Class</th>
+</tr>
+
+<tr>
+<td> Jaiswal </td>
+<td> mehta </td>
+<td>50 </td>
+<td> 4</td>
+</tr>
+
+<tr>
+<td>pooja </td>
+<td> gupta </td>
+<td>58 </td>
+<td> 6</td>
+</tr>
+
+<tr>
+<td> Neha </td>
+<td> Tiwari </td>
+<td>40 </td>
+<td> 7</td>
+</tr>
+
+</table>
+
+<ol type="i">
+<li>WMA Course
+<ul>
+<li>Html</li>
+<li>CSS</li>
+<li>JS</li>
+<li>SQL</li>
+</ul>
+</li>
+
+<li>ITES
+<ul>
+<li>Basic Computer
+</ul></li>
+</li>
+
+</ol>
+
+<ul>
+<li>Html</li>
+<li>CSS</li>
+<li>JS</li>
+<li>SQL</li>
+</ul>
+
+<dl>
+<dt>Zodiac Sign</dt>
+<dd>It has 12 Zodiac Signs</dd>
+
+<dt>Scorpio</dt>
+<dd>Strong</dd>
+
+</dl>
+
+<ol type="I" start="5">
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>SQL</li>
+</ol>
+
+<ol type="i">
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>SQL</li>
+</ol>
+
+<ol type="A" start="5">
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>SQL</li>
+</ol>
+
+<ol type="a" >
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>SQL</li>
+</ol>
+
+<ol type="a" reversed >
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li>
+<li>SQL</li>
+</ol>
+
+<ul>
+<li> html</li>
+<li>CSS </li>
+<li> SQL</li>
+<li>JS</li>
+</ul>
+
+<ul type="circle">
+<li> html</li>
+<li>CSS </li>
+<li> SQL</li>
+<li>JS</li>
+</ul>
+
+<ul type="square">
+<li> html</li>
+<li>CSS </li>
+<li> SQL</li>
+<li>JS</li>
+</ul>
+
+<ul type="disc">
+<li> html</li>
+<li>CSS </li>
+<li> SQL</li>
+<li>JS</li>
+</ul>
+
+<ul type="none">
+<li> html</li>
+<li>CSS </li>
+<li> SQL</li>
+<li>JS</li>
+</ul>
+
+</body>
+</html>
